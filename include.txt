@@ -1,0 +1,14 @@
+数据库部分：
+  需要下载sql文件进行导入
+IDE:
+  导入项目，配置环境
+  util/
+      druid.properties账户密码需要修改
+      JdbcUtils和JdbcUtilsOnDruid有关FileReader位置(各一处)
+服务器：
+  两个tomcat
+  一个Tomcat需要在wakeapp/root目录下创建images文件夹
+  一个tomcat(a)由IDE启动，另一个tomcat(b)需要手动启动
+  b的配置文件端口号该为8888
+浏览器：
+  运行项目前建议先看数据库有关管理员账户信息
